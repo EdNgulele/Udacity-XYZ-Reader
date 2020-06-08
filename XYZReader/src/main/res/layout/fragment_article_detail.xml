@@ -72,10 +72,11 @@
 
                 <TextView
                     android:id="@+id/article_body"
+                    style="@style/article_body_detail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:text="Body of the Article is Going to come here"
-                    style="@style/article_body_detail" />
+                    android:fontFamily="@font/roboto"
+                    tools:text="Body of the Article is Going to come here" />
 
             </com.example.xyzreader.ui.MaxWidthLinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -87,6 +88,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/ic_share"
         style="@style/fab_detail"
+        android:elevation="@dimen/fab_elevation"
         app:fabSize="auto"/>
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>

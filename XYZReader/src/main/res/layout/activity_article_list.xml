@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:background="?colorPrimary"
         android:fitsSystemWindows="true"
+        android:elevation="4dp"
         android:gravity="bottom"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
